@@ -1,0 +1,28 @@
+body {
+    padding: 20px;
+}
+
+header {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 18px;
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+}
